@@ -67,7 +67,7 @@ body{
   font-weight: 500;
   line-height: 18px;
 }
-.textbox-1{
+/* .textbox-1{
   display: flex  ;
   gap: 3px;
   font-weight: 200;
@@ -76,8 +76,7 @@ body{
   color: white;
   margin-left: 140px;
   margin-top: -10px;
-  /* background-image: url(Group3.png);
-  background-repeat: no-repeat; */
+
   
 }
 .textbox-1 img{
@@ -86,6 +85,14 @@ body{
   display: flex;
   margin-top: 23px;
 
+} */
+.textbox-1{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: small;
+  font-weight: 200;
+  color: #FFFFFF;
+  margin-left: 138px;
 }
 .textbox h6{
   margin-top: 5px;
@@ -103,8 +110,8 @@ body{
   border: 1px solid #FFFFFF;
 }
 .textbox-logo{
-  /* padding: 20px; */
   display: flex;
+  width: auto;
   justify-content: space-around;
 }
 .textbox h7{
